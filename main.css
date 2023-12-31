@@ -1,0 +1,107 @@
+    h1 {
+    color: rgb(243, 92, 92);
+}
+
+    h2 {
+    color: rgb(127, 9, 238);
+}
+
+    #Esporte h2 {
+    color: rgb(248, 214, 20);
+}
+
+    #Economia h2 {
+    color: rgb(224, 140, 140);
+}
+    #Saude h2 {
+        color: rgb(241, 25, 25);
+    }
+
+    #Educacao h2 {
+        color:rgb(82, 82, 231);
+    }
+
+
+    .creation-date {
+    color: #ccc;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+    header li a {
+    color: rgb(240, 188, 188);
+    text-decoration: none;
+}
+
+    header li {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 16px
+}
+
+    .container {
+        width: 1340px;
+        margin: 0 auto;
+}
+
+    .articles {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .articles article img {
+        height: 150px;
+        width: 350px;
+    }
+
+    .articles article {
+        width: 30%;
+    }
+
+    section {
+        padding: 12px 0;
+    }
+
+    section h2,
+    .articles article {
+        margin-bottom: 12px;
+    }
+
+    .articles article h3 {
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+    
+    .articles article p {
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .articles article h3 {
+        font-size: 20px;
+    }
+
+    section h2 {
+        font-size: 30px;
+    }
+
+    #Esporte {
+        background-color: rgb(243, 243, 248);
+    }
+
+    #Economia {
+        background-color: rgb(248, 242, 242);
+    }
+
+    #Saude {
+        background-color: rgb(248, 224, 196);
+    }
+
+    #Educacao {
+        background-color: rgb(204, 243, 243);
+    }
+    
